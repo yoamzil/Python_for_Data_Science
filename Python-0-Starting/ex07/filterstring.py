@@ -2,7 +2,11 @@ import sys
 
 
 def filterstring(string, number):
-    print("success")
+    """Filters words from a string that are longer than a given number."""
+    words = string.split(" ")
+    filtered_words = [word for word in words
+                      if (lambda w: len(w) > number)(word)]
+    print(filtered_words)
 
 
 def main(argv):
