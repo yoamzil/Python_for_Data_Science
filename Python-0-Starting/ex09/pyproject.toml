@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ft_package"
+version = "0.0.1"
+description = "A sample test package"
+readme = "README.md"
+
+# Specifying the license using modern SPDX expression identifiers
+license = {file = "LICENSE"}
+
+authors = [
+    { name = "eagle", email = "eagle@42.fr" }
+]
+
+classifiers = [
+]
+
+dependencies = [
+]
+
+[project.urls]
+Homepage = "https://github.com/eagle/ft_package"
